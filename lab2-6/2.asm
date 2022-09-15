@@ -104,9 +104,6 @@ main:
         mov di, buff+200
         mov al, "$"
         stosb
-        mov ah,9
-        mov dx,buff+100
-        int 21h
         mov si, buff+100
         mov dh, 127
         cld
