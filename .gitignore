@@ -1,2 +1,5 @@
 *.o
 *.out
+.DS_Store
+.vscode/
+*.com
