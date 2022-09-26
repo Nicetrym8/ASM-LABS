@@ -1,5 +1,4 @@
-
-#For macocь arm64 users docker is your savior
+# For macocь arm64 users docker is your savior
 
 ## Build docker image
 ```
