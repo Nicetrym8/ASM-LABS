@@ -6,7 +6,7 @@ docker build -t amd64linux .
 ```
 ## Run docker 
 ```
-docker run --rm -it --platform linux/amd64 -v your_path_to_asmlab_folder:/root/ amd64linux bash
+docker run --rm -it --platform linux/amd64 --name x86linux -v path_to_asm_labs:/root/ amd64linux bash
 ```
 
 Enjoy :)

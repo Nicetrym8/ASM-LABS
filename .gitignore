@@ -4,3 +4,4 @@
 .vscode/
 *.com
 .bash_history
+.bashrc

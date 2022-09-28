@@ -8,3 +8,11 @@ powered by GodBolt!
 ## Compile with nasm asm file
 ```nasm -f elf "$f.asm" && gcc -m32 -o $f "$f.o"```
 
+---
+
+# GDB cheatsheet
+
+```
+set disassembly-flavor intel - set intel flavor
+disassemble ${function_name} - disassembl function
+```
