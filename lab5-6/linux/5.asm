@@ -132,7 +132,6 @@ section .text
         push 0
         call exit
 
-
     error:
 		push err
 		call puts

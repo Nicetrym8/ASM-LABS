@@ -48,16 +48,6 @@ section .text
 
 		lea edi, [arr]
 		mov ecx, [len]
-
-		L2:
-			push ecx
-			mov eax, [edi]
-			add edi, 8
-			pop ecx
-			loop L2
-
-		lea edi, [arr]
-		mov ecx, [len]
 		xor eax, eax
 
 		average_value:
