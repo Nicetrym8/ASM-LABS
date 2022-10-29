@@ -1,0 +1,2 @@
+./binary/run1/run.exe
+./binary/run2/run.exe
